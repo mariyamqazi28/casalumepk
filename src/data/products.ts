@@ -180,7 +180,7 @@ export const PRODUCTS: Product[] = [
     volume: '50 ML',
     availableVolumes: ['50 ML'],
     category: 'perfume',
-    image: './images/pic2.png',
+    image: '/images/pic2.png',
     collectionImage: '/images/lunavelle-billiards.jpg',
     galleryImages: [
       '/images/lunavelle-50ml.jpg',
