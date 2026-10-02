@@ -206,7 +206,7 @@ export const CollectionsView: React.FC<CollectionsViewProps> = ({ onQuickView })
             {/* Help / Concierge note */}
             <div className="pt-2 border-t border-stone-100 text-[11px] text-[#786E60] space-y-1">
               <span className="font-bold text-[#8B5A2B] block">Need help picking?</span>
-              <p>Explore our Scent Layering Mixer to find your ideal perfume match.</p>
+              <p>Watch our Brand Film to experience our signature flacons in motion.</p>
             </div>
           </div>
         </aside>

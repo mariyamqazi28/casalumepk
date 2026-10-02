@@ -72,16 +72,16 @@ export const PerfumeClockVideoSection: React.FC<PerfumeClockVideoSectionProps> =
           className="bg-black/50 backdrop-blur-md border border-[#C5A880]/40 hover:border-[#C5A880]/80 rounded-xl p-3.5 xs:p-4 sm:p-5 md:p-6 shadow-[0_20px_50px_rgba(0,0,0,0.6)] cursor-pointer group transition-all duration-300 transform hover:-translate-y-0.5"
         >
           <span className="text-[9.5px] sm:text-[10.5px] uppercase tracking-[0.2em] sm:tracking-[0.22em] text-[#C5A880] font-semibold block mb-1">
-            Custom Fragrance
+            Brand Film
           </span>
 
           {/* Minimized Heading Font Size */}
           <h3 className="text-sm sm:text-base md:text-lg font-bold uppercase tracking-wider text-white mb-1.5">
-            Craft Your Signature Scent
+            The Art of Perfume
           </h3>
 
           <p className="text-[10.5px] xs:text-[11px] sm:text-[11.5px] text-[#DED7CC]/95 max-w-sm mx-auto leading-relaxed mb-3.5 sm:mb-4 font-light">
-            Blend your custom signature duo in our Scent Layering Studio.
+            Experience our signature perfumes and fine botanical essences in 3D motion.
           </p>
 
           {/* Launch Button with Expanded Background Width to ensure arrow stays inside on hover */}
@@ -89,7 +89,7 @@ export const PerfumeClockVideoSection: React.FC<PerfumeClockVideoSectionProps> =
             type="button"
             className="px-4 xs:px-6 sm:px-7 pr-5 xs:pr-7 sm:pr-8 py-2 sm:py-2.5 bg-[#8B5A2B] group-hover:bg-[#A67C52] text-white text-[9.5px] xs:text-[10px] sm:text-[10.5px] uppercase tracking-[0.14em] sm:tracking-[0.16em] font-semibold rounded-xs shadow-md whitespace-nowrap transition-all inline-flex items-center justify-center gap-1.5 sm:gap-2 overflow-hidden"
           >
-            <span>Launch Scent Layering</span>
+            <span>Watch Brand Film</span>
             <ArrowRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1 shrink-0" />
           </button>
         </motion.div>

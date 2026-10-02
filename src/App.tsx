@@ -45,8 +45,11 @@ const MainContent: React.FC = () => {
         )}
 
         {activeView === 'mixer' && (
-          <div className="pt-20 sm:pt-28 pb-16 min-h-[calc(100vh-80px)]">
-            <ScentLayeringMixer onQuickView={(p: Product) => setQuickViewProduct(p)} />
+          <div className="w-full h-[100dvh] relative overflow-hidden bg-[#0A0908]">
+            <ScentLayeringMixer
+              onQuickView={(p: Product) => setQuickViewProduct(p)}
+              onNavigate={handleNavigate}
+            />
           </div>
         )}
 
@@ -68,7 +71,7 @@ const MainContent: React.FC = () => {
       />
 
       {/* 7. Modern Luxury Footer */}
-      <Footer onNavigate={handleNavigate} />
+      {activeView !== 'mixer' && <Footer onNavigate={handleNavigate} />}
     </div>
   );
 };

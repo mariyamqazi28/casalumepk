@@ -30,14 +30,13 @@ export const Navbar: React.FC<NavbarProps> = ({ activeView, onNavigate }) => {
   const navLinks = [
     { id: 'home', label: 'Home' },
     { id: 'collections', label: 'Collections' },
-    { id: 'mixer', label: 'Scent Layering' },
+    { id: 'mixer', label: 'Brand Film' },
     { id: 'about', label: 'About Casalume' },
   ];
 
   // In the 3 sections (Collections, Mixer, About) OR when scrolled on Home:
   // Use lighter transparency (glassmorphism bg-white/80) so navigation links (li) are clearly visible with dark luxury typography!
-  // In the Hero section at the top: transparent over hero background with light typography.
-  const isHeroTop = activeView === 'home' && !isScrolled;
+  const isHeroTop = (activeView === 'home' && !isScrolled) || activeView === 'mixer';
 
   return (
     <header

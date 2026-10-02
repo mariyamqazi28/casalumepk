@@ -146,7 +146,7 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ onExplore, onOpenMix
                 onClick={onOpenMixer}
                 className="w-full sm:w-auto px-4 xs:px-6 py-2.5 xs:py-3 bg-black/40 hover:bg-black/60 text-[#FAF7F2] border border-[#C5A880]/40 hover:border-[#C5A880] transition-all duration-300 text-[11px] sm:text-xs uppercase tracking-[0.14em] xs:tracking-[0.2em] font-medium rounded-sm backdrop-blur-md focus:outline-none"
               >
-                Scent Layering Mixer
+                Brand Film
               </button>
             </div>
           </motion.div>

@@ -69,7 +69,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => onNavigate('mixer')}
                   className="hover:text-white hover:underline transition-all"
                 >
-                  Scent Layering Studio
+                  Brand Film
                 </button>
               </li>
               <li>
